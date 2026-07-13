@@ -1,0 +1,13 @@
+---
+description: Normas del harness de planificación de viajes
+alwaysApply: true
+---
+
+# Viajes Harness
+
+- Leer `SESSION-LOG.md` e **`intereses.md`** al empezar; actualizarlo al cerrar hitos.
+- `reservas.md` = verdad absoluta; escribir **solo** con confirmación explícita del usuario.
+- Itinerarios en `YYYY-destino/actividades/[ciudad].md`. Skill **`planificar-ciudad`** (universal, todos los viajes).
+- Restricciones solo cuando existan. **Entrada:** moneda local + **euros** cuando aplique; conversiones según `YYYY-destino/conversion.md`.
+- Cambios incrementales; no masificar ediciones.
+- Skill de referencia: `viajes-harness`.
