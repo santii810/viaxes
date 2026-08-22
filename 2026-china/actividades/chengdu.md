@@ -122,7 +122,7 @@ Sin horario — capital del **picante sichuanés** (麻辣).
 
 ## Pendiente
 
-- [ ] **Slot exacto reserva pandas** — mañana vs tarde (no escribir en `reservas.md` hasta confirmar)
+- [ ] **Slot exacto reserva pandas** — mañana vs tarde (no escribir en `reservas-summary.md` / `reservas-detail.md` hasta confirmar)
 - [ ] ¿2 días bastan o añadir Leshan/Dujiangyan?
 - [ ] Tren Chengdu → Chongqing (≈1–1,5 h HS) vs avión
 - [ ] Horarios pandas oct 2026 (cierre 18:00 temporada alta)

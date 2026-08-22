@@ -15,7 +15,7 @@ Complementa `viajes-harness` (estructura general del repo).
 
 ## Antes de escribir
 
-1. Leer `SESSION-LOG.md`, **`intereses.md`** (raíz), `reservas.md` y `ciudades.md` **del viaje activo**.
+1. Leer `SESSION-LOG.md`, **`intereses.md`** (raíz), `reservas-summary.md` / `reservas-detail.md` y `ciudades.md` **del viaje activo**.
 2. Leer **`YYYY-destino/consejos-locales.md`** si existe (horarios, trucos del destino).
 3. Leer **`YYYY-destino/conversion.md`** si existe (tabla moneda → €; **obligatorio** cuando el destino no usa euro).
 4. Leer el fichero existente `actividades/[ciudad].md` si existe.
@@ -95,7 +95,7 @@ Cada día: **Zona** y **Base noche**.
 
 ### Otras normas
 
-- No escribir en `reservas.md` salvo confirmación explícita del usuario.
+- No escribir en `reservas-summary.md` / `reservas-detail.md` salvo confirmación explícita del usuario.
 - Ritmo incremental: un día o un bloque por iteración salvo petición contraria.
 - Actualizar `ciudades.md` (estado, días) y `SESSION-LOG.md` al terminar.
 

@@ -1,6 +1,6 @@
 # Alojamiento — China
 
-Opciones, investigación y borradores. Lo confirmado va en `reservas.md`.
+Opciones, investigación y borradores. Lo confirmado va en `reservas-summary.md` / `reservas-detail.md`.
 
 ## Regla rápida de elección
 

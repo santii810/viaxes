@@ -1,0 +1,89 @@
+site_name: China 2026
+site_description: Guía del viaje (privada — no indexar)
+site_author: Viaxes
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: es
+  custom_dir: overrides
+  font: false
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Modo oscuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Modo claro
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - search.share
+    - content.code.copy
+    # navigation.instant desactivado: compatible con build offline
+
+plugins:
+  - search:
+      lang: es
+  - offline:
+      enabled: !ENV [MKDOCS_OFFLINE, false]
+  - privacy:
+      enabled: !ENV [MKDOCS_OFFLINE, false]
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra:
+  generator: false
+
+not_in_nav: |
+  /docs/**
+
+nav:
+  - Inicio: index.md
+  - Reservas:
+    - Resumen: reservas-summary.md
+    - Detalle: reservas-detail.md
+  - Plan A: plan-A.md
+  - Plan B: plan-B.md
+  - Ciudades: ciudades.md
+  - Actividades:
+    - Pekín: actividades/pekin.md
+    - Xi'an: actividades/xian.md
+    - Chengdu: actividades/chengdu.md
+    - Chongqing: actividades/chongqing.md
+    - Furong: actividades/furong.md
+    - Fenghuang: actividades/fenghuang.md
+    - Guilin: actividades/guilin.md
+    - Zhangjiajie: actividades/zhangjiajie.md
+    - Shanghái: actividades/shanghai.md
+  - Logística:
+    - Transportes: transportes.md
+    - Alojamiento: alojamiento.md
+    - Presupuesto: presupuesto.md
+    - Documentación: documentacion.md
+  - Referencia:
+    - Consejos locales: consejos-locales.md
+    - Conversión: conversion.md

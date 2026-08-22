@@ -1,5 +1,18 @@
 # Herramientas Viaxes
 
+## Web interactiva (MkDocs)
+
+Sitio navegable del viaje (online + ZIP offline): ver **`web/README.md`**.
+
+```bash
+pip install -r web/requirements.txt
+python web/scripts/build.py serve      # local
+python web/scripts/build.py online     # → web/site/
+python web/scripts/build.py offline    # → web/site-offline/
+```
+
+La fuente sigue en `YYYY-destino/`; el PDF de abajo es la versión imprimible.
+
 ## Generar guía PDF
 
 Convierte los markdown de un viaje en un PDF listo para imprimir (A4).
@@ -31,7 +44,7 @@ python tools/generar-guia.py 2026-china -o mi-guia.pdf
 
 1. Portada (título del viaje + fechas de `ciudades.md`)
 2. **Índice** con números de página
-3. `reservas.md`
+3. `reservas-summary.md` / `reservas-detail.md`
 4. `ciudades.md`
 5. Cada ciudad de `actividades/` — **subapartado de Ciudades** (indentada en el índice)
 6. `consejos-locales.md` (si existe)

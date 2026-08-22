@@ -1,0 +1,16 @@
+# Builds y caché
+web/site/
+web/site-offline/
+web/*.zip
+web/docs/**
+!web/docs/index.md
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db

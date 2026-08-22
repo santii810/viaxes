@@ -29,7 +29,8 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 
 # Orden de ficheros según el harness (AGENTS.md / viajes-harness)
 FICHEROS_ANTES_ACTIVIDADES = [
-    ("reservas.md", "Reservas"),
+    ("reservas-summary.md", "Reservas (resumen)"),
+    ("reservas-detail.md", "Reservas (detalle)"),
     ("ciudades.md", "Ciudades"),
 ]
 FICHEROS_DESPUES_ACTIVIDADES = [
@@ -765,7 +766,7 @@ def recopilar_contenido(
 
     partes: list[ParteGuia] = []
 
-    # 1. reservas.md, ciudades.md
+    # 1. reservas-summary/detail, ciudades.md
     for nombre_fichero, titulo_seccion in FICHEROS_ANTES_ACTIVIDADES:
         path = viaje_dir / nombre_fichero
         if path.exists():

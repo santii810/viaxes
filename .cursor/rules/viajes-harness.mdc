@@ -6,8 +6,9 @@ alwaysApply: true
 # Viajes Harness
 
 - Leer `SESSION-LOG.md` e **`intereses.md`** al empezar; actualizarlo al cerrar hitos.
-- `reservas.md` = verdad absoluta; escribir **solo** con confirmación explícita del usuario.
+- `reservas-summary.md` + `reservas-detail.md` = verdad absoluta; escribir **solo** con confirmación explícita (ambos).
 - Itinerarios en `YYYY-destino/actividades/[ciudad].md`. Skill **`planificar-ciudad`** (universal, todos los viajes).
 - Restricciones solo cuando existan. **Entrada:** moneda local + **euros** cuando aplique; conversiones según `YYYY-destino/conversion.md`.
 - Cambios incrementales; no masificar ediciones.
+- Web del viaje: `web/` (MkDocs); fuente en `YYYY-destino/`; sync/build vía `web/scripts/`.
 - Skill de referencia: `viajes-harness`.

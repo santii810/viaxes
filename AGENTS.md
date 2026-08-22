@@ -10,7 +10,8 @@ Viaxes/                          # Raíz — harness reutilizable
 ├── SESSION-LOG.md               # Log de conversaciones (todos los viajes)
 ├── intereses.md                 # Preferencias del viajero (contexto, no prioridad)
 ├── 2026-china/                  # Un viaje = carpeta YYYY-destino
-│   ├── reservas.md              # Verdad absoluta de este viaje
+│   ├── reservas-summary.md      # Histórico cronológico (sin detalle)
+│   ├── reservas-detail.md       # Verdad absoluta con detalle / PDFs
 │   ├── ciudades.md              # Lista, orden, días totales
 │   ├── actividades/             # Un fichero por ciudad/destino
 │   │   ├── pekin.md
@@ -23,6 +24,11 @@ Viaxes/                          # Raíz — harness reutilizable
 │   ├── consejos-locales.md      # (opcional) trucos del destino
 │   └── conversion.md            # obligatorio si moneda ≠ € — tabla ancla CNY→€ etc.
 ├── 2027-japon/                  # (futuro — misma estructura)
+├── web/                         # Sitio MkDocs del viaje activo (ver §6)
+│   ├── mkdocs.yml
+│   ├── docs/                    # generado desde YYYY-destino (sync)
+│   └── scripts/
+├── tools/                       # Guía PDF, etc.
 └── .cursor/
     ├── rules/
     └── skills/
@@ -40,12 +46,14 @@ Plantilla de ciudad: `.cursor/skills/planificar-ciudad/plantilla.md`
 - Al **cerrar** o tras hitos importantes: añadir una entrada con fecha, viaje afectado y resumen breve.
 - No duplicar el contenido de los ficheros del viaje; solo decisiones, pendientes y contexto conversacional.
 
-### 2. reservas.md — verdad absoluta (por viaje)
+### 2. Reservas — verdad absoluta (por viaje)
 
-- Ruta: `YYYY-destino/reservas.md` (p. ej. `2026-china/reservas.md`).
+- Rutas: `YYYY-destino/reservas-summary.md` + `reservas-detail.md`.
+- **summary** = histórico cronológico (tipo · fecha · hora inicio · qué · hora fin), sin detalle.
+- **detail** = localizadores, plazas, PDFs, precios.
 - Solo escribir cuando el usuario **confirme explícitamente** (p. ej. "confirma esto en reservas").
-- Contenido inmutable una vez confirmado: reservas hechas, fechas fijadas, vuelos comprados, etc.
-- Nunca opiniones, alternativas ni "quizá". Si hay duda, no va en reservas.
+- Contenido inmutable una vez confirmado. Nunca opiniones, alternativas ni "quizá". Si hay duda, no va en reservas.
+- Al confirmar: actualizar **ambos** ficheros.
 
 ### 3. Ficheros por tipo (dentro de cada viaje)
 
@@ -75,11 +83,20 @@ Plantilla de ciudad: `.cursor/skills/planificar-ciudad/plantilla.md`
 - Cambios pequeños y revisables. No reescribir todo el viaje en cada iteración.
 - Una categoría o un bloque de reservas por paso, salvo que el usuario pida lo contrario.
 
+### 6. Web del viaje (`web/`)
+
+- Sitio **MkDocs Material** del viaje activo (ahora `2026-china`): navegable online y exportable offline.
+- **Fuente de verdad:** siempre `YYYY-destino/`. No editar el markdown sincronizado en `web/docs/` (salvo `index.md`).
+- Antes de servir o publicar: `python web/scripts/build.py serve|online|offline`.
+- Detalle de uso: `web/README.md`. Diseño: `docs/superpowers/specs/2026-08-18-mkdocs-web-viaje-design.md`.
+- El PDF (`tools/generar-guia.py`) sigue siendo la versión imprimible; la web es la capa interactiva.
+- Privacidad: repo privado + URL no anunciada (sin login). Incluye reservas/PDFs.
+
 ## Flujo del agente
 
 1. Leer `SESSION-LOG.md`, **`intereses.md`** y `AGENTS.md` (raíz).
 2. Identificar el viaje (carpeta `YYYY-destino/`) en curso.
-3. Leer `reservas.md` del viaje antes de proponer cambios que lo afecten.
+3. Leer `reservas-summary.md` (y `reservas-detail.md` si hace falta) antes de proponer cambios que lo afecten.
 4. Trabajar en el fichero correspondiente — si es una ciudad, invocar skill `planificar-ciudad`.
 5. Actualizar `SESSION-LOG.md` al terminar.
 

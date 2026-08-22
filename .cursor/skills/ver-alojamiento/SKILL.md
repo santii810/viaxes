@@ -7,7 +7,7 @@ description: Recomienda zonas para dormir por ciudad y completa `YYYY-destino/al
 
 Skill universal del harness Viaxes para **recomendar barrios** y completar `YYYY-destino/alojamiento.md` en cualquier viaje (`2026-china/`, `2027-japon/`, etc.).
 
-No escribe en `reservas.md` (verdad absoluta) salvo confirmación explícita del usuario.
+No escribe en `reservas-summary.md` / `reservas-detail.md` (verdad absoluta) salvo confirmación explícita del usuario.
 
 **Plantilla:** [plantilla.md](plantilla.md) — usar como estructura base de `YYYY-destino/alojamiento.md` si el fichero está vacío o desordenado.
 
@@ -15,7 +15,7 @@ No escribe en `reservas.md` (verdad absoluta) salvo confirmación explícita del
 
 1. Leer `SESSION-LOG.md`, **`intereses.md`** y `AGENTS.md` (raíz).
 2. Identificar el viaje activo (`YYYY-destino/`).
-3. Leer `YYYY-destino/reservas.md` antes de sugerir nada que dependa de fechas confirmadas (vuelos, estaciones, etc.).
+3. Leer `YYYY-destino/reservas-summary.md / reservas-detail.md` antes de sugerir nada que dependa de fechas confirmadas (vuelos, estaciones, etc.).
 4. Leer `YYYY-destino/ciudades.md` (orden, días, estado confirmado/opción).
 5. Leer los ficheros `YYYY-destino/actividades/[ciudad].md` de las ciudades implicadas para capturar:
    - **Zona** y **Base noche** recomendada en cada día
@@ -51,4 +51,4 @@ Para **cada ciudad** (o parada) de `ciudades.md`:
 - [ ] Cada ciudad tiene **barrios + porqué + precio**.
 - [ ] Moneda local + euros cuando aplica (según `conversion.md`).
 - [ ] Las zonas recomendadas encajan con “Zona/Base noche” de `actividades/[ciudad].md`.
-- [ ] No se ha escrito nada en `reservas.md` sin confirmación explícita.
+- [ ] No se ha escrito nada en `reservas-summary.md` / `reservas-detail.md` sin confirmación explícita.
