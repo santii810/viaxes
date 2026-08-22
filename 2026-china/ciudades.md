@@ -2,7 +2,7 @@
 
 Itinerario por ciudades, orden, días. Lo confirmado va en `reservas-summary.md` / `reservas-detail.md`.
 
-> **Plan A en construcción:** [`plan-A.md`](plan-A.md). **Plan B** (sin Guilin): [`plan-B.md`](plan-B.md). No confundir con los escenarios borrador de abajo.
+> **Plan A en construcción:** [`plan-A.md`](plan-A.md). **Plan B** (sin Guilin): [`plan-B.md`](plan-B.md). **Plan C** (solo lo reservado): [`plan-C.md`](plan-C.md). No confundir el **Plan C** (fichero) con el **Escenario C** de los borradores de abajo.
 
 ## Ventana real (según reservas)
 

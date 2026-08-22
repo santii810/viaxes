@@ -435,3 +435,83 @@ Resumen de conversaciones para continuidad entre sesiones. Los agentes añaden e
 **Resumen:** Creado `2026-china/plan-B.md` copiando el Plan A. Se sacan Guilin/Yangshuo. Shanghái, Pekín, Xi'an, Chengdu, Chongqing y Zhangjiajie quedan iguales. Fijado provisionalmente el G6080 el **15/10**: Shenzhenbei 08:33 → Fenghuang Gucheng 13:54, 5 h 21 min, 70,74 € por persona. Captura en `docs/plan-B/shenzhen-fenghuang-g6080.png` (no se duplicó el resto). Fenghuang queda en 1 noche; los días 13 y 14 quedan libres.
 
 **Confirmado en reservas:** (sin cambios).
+
+---
+
+## 2026-08-22 — Plan C de cero (solo reservado)
+
+**Viaje:** 2026-china
+
+**Resumen:** Creado `2026-china/plan-C.md` de cero. Cronología y ciudades apuntadas solo con lo confirmado en reservas (trenes España + vuelos HKG/PVG). Enlace añadido en `ciudades.md`. No se tocaron reservas.
+
+**Confirmado en reservas:** (sin cambios).
+
+---
+
+## 2026-08-22 — Plan C: día de la semana
+
+**Viaje:** 2026-china
+
+**Resumen:** Añadida columna **Día** (lun–dom) en la cronología del Plan C, y el día junto a las fechas de HK/Shanghái. Oct 2026: 10 y 31 = sáb; 11 y 1 nov = dom.
+
+**Confirmado en reservas:** (sin cambios).
+
+---
+
+## 2026-08-22 — Plan C: tren G23 Pekín → Shanghái
+
+**Viaje:** 2026-china
+
+**Resumen:** Usuario fija **jue 29/10** el G23 Beijingnan 11:00 → Shanghai Hongqiao 15:35 (4 h 37 min, 91,17 €/pax). Actualizado `plan-C.md` (ciudades, cronología, captura en `docs/plan-C/pekin-shanghai-g23.png`). Shanghái: tarde 29 + 30 + mañana 31 antes de PVG.
+
+**Confirmado en reservas:** (sin cambios — tren interno aún no reservado).
+
+---
+
+## 2026-08-22 — Plan C: vuelo Chengdu → Pekín (lun 26)
+
+**Viaje:** 2026-china
+
+**Resumen:** Usuario fija vuelo **lun 26/10** Chengdu TFU 11:15 → Pekín PKX 13:55 (China United, directo, equipaje incluido, 99 €/pax). Encaja antes del G23 del jue 29. Captura en `docs/plan-C/chengdu-pekin-vuelo.png`. Pekín: ~2 d 21 h (26 tarde → 29 mañana).
+
+**Confirmado en reservas:** (sin cambios).
+
+---
+
+## 2026-08-22 — Plan C: tren G2426 Zhangjiajie → Chongqing (jue 23)
+
+**Viaje:** 2026-china
+
+**Resumen:** Usuario fija **jue 23/10** el G2426 Zhangjiajiexi 08:52 → Chongqing Este 10:54 (2 h 02 min, 33,29 €/pax). Encaja antes del G8626 del sáb 25 (drones CQ). Captura en `docs/plan-C/zhangjiajie-chongqing-g2426.png`. Chongqing: ~2 d 4 h (23 tarde → 25 tarde).
+
+**Confirmado en reservas:** (sin cambios).
+
+---
+
+## 2026-08-22 — Plan C: tren G5646 Hong Kong → Shenzhen (mar 13)
+
+**Viaje:** 2026-china
+
+**Resumen:** Usuario fija **mar 13/10** el G5646 West Kowloon 14:04 → Shenzhenbei 14:28 (24 min, 11,55 €/pax). HK: noche 11 + día 12 + tarde 13. Captura en `docs/plan-C/hongkong-shenzhen-g5646.png`. Falta enlazar Shenzhen → Zhangjiajie (13–22 oct).
+
+**Confirmado en reservas:** (sin cambios).
+
+---
+
+## 2026-08-22 — Plan C: tren G908 Shenzhen → Guilin (jue 15)
+
+**Viaje:** 2026-china
+
+**Resumen:** Usuario fija **jue 15/10** el G908 Shenzhenbei 11:37 → Guilinxi 14:16 (2 h 39 min, 44,41 €/pax). Shenzhen: ~1 d 21 h (13 tarde → 15 mañana). Falta enlazar Guilin → Zhangjiajie (15–22 oct).
+
+**Confirmado en reservas:** (sin cambios).
+
+---
+
+## 2026-08-22 — Plan C: tren G8626 Chongqing → Chengdu (sáb 25)
+
+**Viaje:** 2026-china
+
+**Resumen:** Usuario fija **sáb 25/10** el G8626 Shapingba 14:35 → Chengdudong 15:50 (1 h 15 min, 21,85 €/pax). Encaja antes del vuelo a Pekín del lun 26. Captura en `docs/plan-C/chongqing-chengdu-g8626.png`. Sáb 25 = posible drones en Chongqing.
+
+**Confirmado en reservas:** (sin cambios).
