@@ -2,8 +2,8 @@
 web/site/
 web/site-offline/
 web/*.zip
-web/docs/**
-!web/docs/index.md
+web/docs/
+web/.mkdocs.generated.yml
 
 # Python
 __pycache__/

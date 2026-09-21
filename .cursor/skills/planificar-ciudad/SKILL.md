@@ -78,6 +78,24 @@ abr–oct 06:30–20:00 / nov–mar 07:00–18:00
 - Patrones locales (picos turísticos, siesta, último tren…) → investigar o leer `consejos-locales.md` del viaje; **no** copiar reglas de otro país.
 - Si el destino tiene consejos de franja horaria documentados, aplicarlos en ese viaje únicamente.
 
+### Orden del fichero (importantísimo)
+
+Por cada día: **horario primero, fotos y descripción de ESE día justo debajo**, antes de pasar al día siguiente.
+
+Orden fijo:
+
+1. Cabecera (duración, estado, resumen, moneda)
+2. **La ciudad en 30 segundos** — cómo se organiza + mapa mental + **dónde dormir**
+3. **Día N:** Programa → Plan B → **Qué es cada sitio** (solo X, Y, Z de ese día: texto + foto + mapa)
+4. Repetir el bloque 3 por cada día
+5. **Deck**
+6. **Gastronomía**
+7. **Compras y curiosidades**
+8. **Experiencias**
+9. **Pendiente**
+
+No juntar todas las fotos al final. Modelo: `2026-china/actividades/hong-kong.md`. Pendiente en el resto de ciudades.
+
 ### Estructura por día
 
 Ver [plantilla.md](plantilla.md). Resumen:

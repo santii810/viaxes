@@ -22,11 +22,11 @@ Viaxes/                          # Raíz — harness reutilizable
 │   ├── presupuesto.md
 │   ├── documentacion.md
 │   ├── consejos-locales.md      # (opcional) trucos del destino
-│   └── conversion.md            # obligatorio si moneda ≠ € — tabla ancla CNY→€ etc.
+│   ├── conversion.md            # obligatorio si moneda ≠ € — tabla ancla CNY→€ etc.
+│   └── index.md                 # portada MkDocs (web)
 ├── 2027-japon/                  # (futuro — misma estructura)
 ├── web/                         # Sitio MkDocs del viaje activo (ver §6)
-│   ├── mkdocs.yml
-│   ├── docs/                    # generado desde YYYY-destino (sync)
+│   ├── mkdocs.yml               # docs_dir → ../YYYY-destino
 │   └── scripts/
 ├── tools/                       # Guía PDF, etc.
 └── .cursor/
@@ -69,14 +69,8 @@ Plantilla de ciudad: `.cursor/skills/planificar-ciudad/plantilla.md`
 - Restricciones **solo si existen** (celda vacía si no hay). Ver skill.
 - Consejos de un destino concreto → `YYYY-destino/consejos-locales.md` si existe.
 - Destino sin euro → `YYYY-destino/conversion.md` (tabla ancla; plantilla en skill `viajes-harness`).
-- Cada ciudad sigue esta estructura por día:
-  1. **Programa** — horario principal + restricciones + **entrada** (moneda local + € cuando aplique)
-  2. **Plan B (misma zona)** — actividades extra en la zona del día (cambiar de plan, aburrimiento, acortar)
-  3. **Deck** — fuera del itinerario; esfuerzo + por qué (sin «sustituiría a»)
-  4. **Compras y curiosidades** — menú tiendas locales, productos del destino, curiosidades
-  5. **Gastronomía** — platos típicos + restaurantes emblemáticos (sin horario)
-  6. **Experiencias** — espectáculos (comida → Gastronomía)
-- Cada día indica **zona/barrio** y **base noche** recomendada (coherente con `alojamiento.md`).
+- Cada ciudad: **30 segundos + mapa + dónde dormir**. Luego, **por cada día:** Programa → Plan B → fotos/descripción de los sitios de *ese* día. Modelo: `actividades/hong-kong.md`. Luego Deck, Gastronomía, Compras, Experiencias.
+- Cada día: **Programa** (horario + restricciones + **entrada** moneda local + €) y **Plan B (misma zona)**. **Zona** y **base noche** coherentes con `alojamiento.md`.
 
 ### 5. Ritmo incremental
 
@@ -86,7 +80,7 @@ Plantilla de ciudad: `.cursor/skills/planificar-ciudad/plantilla.md`
 ### 6. Web del viaje (`web/`)
 
 - Sitio **MkDocs Material** del viaje activo (ahora `2026-china`): navegable online y exportable offline.
-- **Fuente de verdad:** siempre `YYYY-destino/`. No editar el markdown sincronizado en `web/docs/` (salvo `index.md`).
+- MkDocs lee **directamente** `YYYY-destino/` (`docs_dir: ../2026-china` en `web/mkdocs.yml`). Editar ahí; `serve` recarga en caliente.
 - Antes de servir o publicar: `python web/scripts/build.py serve|online|offline`.
 - Detalle de uso: `web/README.md`. Diseño: `docs/superpowers/specs/2026-08-18-mkdocs-web-viaje-design.md`.
 - El PDF (`tools/generar-guia.py`) sigue siendo la versión imprimible; la web es la capa interactiva.

@@ -18,8 +18,8 @@ El PDF (`tools/generar-guia.py`) sigue siendo la versión imprimible.
 |------|----------|
 | Stack | MkDocs + Material for MkDocs |
 | Alcance | Solo `2026-china/` |
-| Fuente de verdad | Markdown en `2026-china/` (no editar copias en `web/docs/`) |
-| Sync | `web/scripts/sync-from-viaje.py` copia a `web/docs/` antes de build/serve |
+| Fuente de verdad | Markdown en `2026-china/` |
+| `docs_dir` | `../2026-china` en `web/mkdocs.yml` (live reload en `serve`) |
 | Privacidad | Repo privado + enlace oscuro; `noindex`; PDFs incluidos online y offline |
 | Instant loading | Desactivado (compatibilidad offline) |
 
@@ -27,9 +27,8 @@ El PDF (`tools/generar-guia.py`) sigue siendo la versión imprimible.
 
 - `web/mkdocs.yml` — config
 - `web/requirements.txt` — deps
-- `web/scripts/sync-from-viaje.py` — sync
-- `web/scripts/build.py` — sync + build online/offline
-- `web/docs/` — generado (gitignore salvo `index.md`)
+- `web/scripts/build.py` — serve / build online / offline
+- `2026-china/index.md` — portada web (MkDocs)
 - `web/overrides/` — meta robots
 
 ## Fuera de alcance

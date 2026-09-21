@@ -21,6 +21,12 @@ La **gastronomía es MUY importante** para el viajero. Cada ciudad lleva apartad
 | Curiosidades | Cosas raras o muy locales (ej. sello en Vietnam fue anécdota, no afición a sellos) | Una línea si encaja; no forzar |
 | Farmacias / TCM | Sandra es farmacéutica — le interesa ver **1–2** farmacias o tiendas TCM por ciudad | Tongrentang, farmacia histórica o museo. **No** listar muchas ni dedicar medio día |
 
+## Formato de ciudad (confirmado)
+
+- **Arriba:** la ciudad en 30 segundos + mapa mental + dónde dormir.
+- **Por cada día:** Programa → Plan B → **fotos y descripción de los sitios de ESE día** (antes de pasar al día siguiente).
+- No juntar todas las fichas al final. Modelo: `2026-china/actividades/hong-kong.md`.
+
 ## Anti-patrones
 
 - No llenar Compras y curiosidades de un solo interés.

@@ -43,8 +43,7 @@ Plantilla conversión: `.cursor/skills/viajes-harness/conversion.plantilla.md`
 ## Web del viaje (`web/`)
 
 - MkDocs Material del viaje activo (`2026-china` por ahora).
-- Editar solo en `YYYY-destino/`; sincronizar con `python web/scripts/sync-from-viaje.py` o `python web/scripts/build.py serve|online|offline`.
-- No editar copias en `web/docs/` (excepto `index.md`).
+- MkDocs lee **directamente** `YYYY-destino/` (`docs_dir` en `web/mkdocs.yml`). Live reload con `python web/scripts/build.py serve`.
 - Ver `web/README.md`.
 
 ## Ritmo

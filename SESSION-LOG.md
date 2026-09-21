@@ -508,10 +508,242 @@ Resumen de conversaciones para continuidad entre sesiones. Los agentes añaden e
 
 ---
 
+## 2026-08-22 — Plan C: D864 sustituye G908 Shenzhen → Guilin (jue 15)
+
+**Viaje:** 2026-china
+
+**Resumen:** Usuario cambia el tramo Shenzhen → Guilin: **D864** Shenzhenbei 18:32 → Guilinxi 21:18 (2 h 46 min, 31,25 €/pax). Borrado G908 y captura `shenzhen-guilin-g908.png`; nueva captura `docs/plan-C/shenzhen-guilin-d864.png`. Shenzhen pasa a ~2 d 4 h (13 tarde → 15 tarde). Guilin: noche del 15.
+
+**Confirmado en reservas:** (sin cambios).
+
+---
+
 ## 2026-08-22 — Plan C: tren G8626 Chongqing → Chengdu (sáb 25)
 
 **Viaje:** 2026-china
 
 **Resumen:** Usuario fija **sáb 25/10** el G8626 Shapingba 14:35 → Chengdudong 15:50 (1 h 15 min, 21,85 €/pax). Encaja antes del vuelo a Pekín del lun 26. Captura en `docs/plan-C/chongqing-chengdu-g8626.png`. Sáb 25 = posible drones en Chongqing.
+
+**Confirmado en reservas:** (sin cambios).
+
+---
+
+## 2026-08-22 — Plan C en MkDocs
+
+**Viaje:** 2026-china (harness)
+
+**Resumen:** Añadido `plan-C.md` a la nav de `web/mkdocs.yml` y a los accesos rápidos de `web/docs/index.md`. El sync ya copiaba el fichero y `docs/plan-C/`.
+
+**Confirmado en reservas:** (sin cambios).
+
+---
+
+## 2026-08-22 — Plan C: crucero río Li Guilin → Yangshuo (vie 16)
+
+**Viaje:** 2026-china
+
+**Resumen:** Usuario apunta crucero río Li **vie 16/10** 09:00 Guilin → 14:00 Yangshuo. Pendiente reservar. Noche del 15 en Guilin tras D864.
+
+**Confirmado en reservas:** (sin cambios).
+
+---
+
+## 2026-08-22 — Plan C: tren D3970 Guilin → Zhangjiajie (sáb 17)
+
+**Viaje:** 2026-china
+
+**Resumen:** Usuario fija **sáb 17/10** el D3970 Guilin 09:29 → Zhangjiajiexi 16:29 (7 h, 48,87 €/pax). Encaja tras crucero vie 16: noche en Yangshuo + madrugada a Guilin. ~5,5 días en ZJJ hasta G2426 del 23. Captura en `docs/plan-C/guilin-zhangjiajie-d3970.png`.
+
+**Confirmado en reservas:** (sin cambios).
+
+---
+
+## 2026-08-22 — MkDocs lee 2026-china directo (live reload)
+
+**Viaje:** 2026-china (harness)
+
+**Resumen:** `docs_dir: ../2026-china` en `web/mkdocs.yml`. Portada en `2026-china/index.md`. Eliminado sync (`sync-from-viaje.py`); `build.py serve` recarga al editar en China. Actualizados README, AGENTS, skill y diseño.
+
+**Confirmado en reservas:** (sin cambios).
+
+---
+
+## 2026-08-24 — Itinerario Hong Kong (Plan C)
+
+**Viaje:** 2026-china
+
+**Resumen:** Creado `actividades/hong-kong.md` para Plan C: llegada **dom 11/10 21:55** HKG, salida **mar 13/10 14:04** West Kowloon (G5646). Tres bloques: noche llegada, **lun 12** día completo (Peak + Star Ferry + Central + Symphony of Lights + Temple Street), **mar 13** mañana corta en West Kowloon Cultural District antes del tren. Base noche TST/Jordan. Actualizado enlace en `ciudades.md`.
+
+**Pendiente:** hotel HK, Peak Tram online, Octopus Card.
+
+**Confirmado en reservas:** (sin cambios).
+
+---
+
+## 2026-08-24 — `iniciar_china.py` (nav auto)
+
+**Viaje:** 2026-china (web)
+
+**Resumen:** Script `iniciar_china.py` en raíz: escanea `2026-china/`, genera nav en `web/.mkdocs.generated.yml` y lanza `mkdocs serve` en `0.0.0.0:8000`. Ya no hace falta editar `mkdocs.yml` al añadir ciudades (p. ej. Hong Kong).
+
+**Confirmado en reservas:** (sin cambios).
+
+---
+
+## 2026-09-07 — Plan C: +1 día Guilin (D3970 al 18)
+
+**Viaje:** 2026-china
+
+**Resumen:** Usuario añade **1 día en Guilin/Yangshuo**. El D3970 pasa de **sáb 17/10** a **dom 18/10** (mismo tren 09:29→16:29, 48,87 €/pax). Guilin: ~2 d 12 h (noche 15 + crucero vie 16 + día sáb 17 Yangshuo). Zhangjiajie pierde ese día: llegada **dom 18 16:29**, ~4 d 16 h hasta el G2426 del 23. Shanghái no se toca. Nada en reservas.
+
+**Confirmado en reservas:** (sin cambios).
+
+---
+
+## 2026-09-07 — Plan C: −1 ZJJ / +1 Shanghái (cadena −1d)
+
+**Viaje:** 2026-china
+
+**Resumen:** Usuario saca 1 día de Zhangjiajie y se lo da a Shanghái: se adelanta 1 día toda la cadena ZJJ→CQ→Chengdu→Pekín→Shanghái. G2426 **jue 22**, G8626 **sáb 24**, vuelo TFU→PKX **dom 25**, G23 **mié 28**. ZJJ ~3 d 16 h; Shanghái ~3 d 3 h. ⚠️ Salida CQ sáb 24 14:35 → se pierde drones noche del 24. Nada en reservas.
+
+**Confirmado en reservas:** (sin cambios).
+
+---
+
+## 2026-09-07 — Chongqing: drones descartados
+
+**Viaje:** 2026-china
+
+**Resumen:** Usuario desiste del show 魅力重庆: no encaja en el calendario. Día 2 de Chongqing deja de depender del sábado noche (Eling/Testbed + paseo río). Fechas Plan C sin cambios (jue 22 → sáb 24 14:35). Nada en reservas.
+
+**Confirmado en reservas:** (sin cambios).
+
+---
+
+## 2026-09-07 — Plan C: G2962 Shenzhen → Yangshuo (sin crucero)
+
+**Viaje:** 2026-china
+
+**Resumen:** Usuario descarta el crucero Guilin→Yangshuo. Entra en Yangshuo en tren: **G2962** Shenzhenbei **17:43** → Yangshuo **20:44** (3 h 1 min, 36,46 €/pax), jue 15. Sustituye al D864 a Guilinxi. Tres noches en Yangshuo (15–17); **dom 18** traslado a Guilin para el D3970. Captura `docs/plan-C/shenzhen-yangshuo-g2962.png`. Nada en reservas.
+
+**Confirmado en reservas:** (sin cambios).
+
+---
+
+## 2026-09-07 — Plan D (copia C + ZJJ noche / Chengdu −1d)
+
+**Viaje:** 2026-china
+
+**Resumen:** Creado `plan-D.md` copiando el Plan C. Cambios: **G2442** mié 21 20:48 Zhangjiajiexi → Chongqing Este 22:55 (30,40 €/pax); **D2263** vie 23 20:56 Chongqingbei → Chengdudong 23:16 (12,90 €/pax). ZJJ ~3 d 4 h; CQ ~1 d 22 h; Chengdu gana el sáb 24 (~1 d 12 h). Vuelo TFU→PKX del dom 25 sin cambios. Capturas en `docs/plan-D/`. Nada en reservas.
+
+**Confirmado en reservas:** (sin cambios).
+
+---
+
+## 2026-09-07 — Plan D: HK → SZ el lun 12 ≈20:00
+
+**Viaje:** 2026-china
+
+**Resumen:** En Plan D, el cruce West Kowloon → Shenzhenbei pasa del **mar 13** 14:04 (G5646) al **lun 12 ≈20:00** (tren aún por elegir). HK ~22 h (noche 11 + día 12). Shenzhen ~2 d 21 h (noche 12 + 13–14 + día 15). Nada en reservas.
+
+**Confirmado en reservas:** (sin cambios).
+
+---
+
+## 2026-09-07 — Plan D: −1 Shenzhen / +1 Chongqing (cadena −1d)
+
+**Viaje:** 2026-china
+
+**Resumen:** Usuario saca 1 día de Shenzhen y se lo da a Chongqing: se adelantan G2962 (**mié 14**), D3970 (**sáb 17**) y G2442 (**mar 20**). D2263 vie 23 y el resto no se mueven. Shenzhen ~1 d 21 h; Chongqing ~2 d 22 h (noche 20 + 21–22 + vie 23). Nada en reservas.
+
+**Confirmado en reservas:** (sin cambios).
+
+---
+
+## 2026-09-07 — Fotos Hong Kong locales
+
+**Viaje:** 2026-china
+
+**Resumen:** Las 6 fotos del diccionario de `actividades/hong-kong.md` apuntaban a thumbs de Wikimedia que daban 404/429. Bajadas a `docs/hong-kong/` (Peak, Star Ferry, Avenue of Stars, Man Mo, Mong Kok, Ladies' Market) y enlazadas en local. Atribución CC en el propio fichero.
+
+**Confirmado en reservas:** (sin cambios).
+
+---
+
+## 2026-09-07 — Plan D activo + HK anochecer / Ladies' Market
+
+**Viaje:** 2026-china
+
+**Resumen:** Usuario se ciñe solo al **Plan D**. `hong-kong.md` pasa a 1 noche (11) + lun 12: isla mañana, Peak al anochecer (puesta ≈18:04), Star Ferry oscuro, **Ladies' Market prioridad**, tren West Kowloon **≈22:00–22:30** (antes ≈20:00; último ≈23:00). Symphony no cabe. Hotel 1 noche. Nada en reservas.
+
+**Confirmado en reservas:** (sin cambios).
+
+---
+
+## 2026-09-07 — Ficha de sitios pegada a cada día
+
+**Viaje:** general (harness) / 2026-china
+
+**Resumen:** Tras cada día (Programa + Plan B) van fotos y descripción **solo de los sitios de ese día**, antes del día siguiente. 30s + mapa + dormir siguen arriba. `hong-kong.md` reordenado. Norma en skill, plantilla, `intereses.md`, `AGENTS.md`.
+
+**Confirmado en reservas:** (sin cambios).
+
+---
+
+## 2026-09-08 — Plan D: Pekín recortado; vuelo TFU→PVG 28
+
+**Viaje:** 2026-china
+
+**Resumen:** Usuario recorta Pekín. Vuelo **Air China** mié 28 10:00 TFU T2 → 12:45 PVG T2 (2 h 45 min, 130 €/pax, equipaje incluido). Chengdu ~4 d 11 h (noche 23 + 24–27). Shanghái entra por PVG (~3 d 5 h). Caen el vuelo China United del 25 y el G23. Captura `docs/plan-D/chengdu-shanghai-vuelo.png`. Nada en reservas.
+
+**Confirmado en reservas:** (sin cambios).
+
+---
+
+## 2026-09-08 — Plan D: −2 Chengdu / +1 HK / +1 ZJJ
+
+**Viaje:** 2026-china
+
+**Resumen:** Usuario quita 2 días de Chengdu y los reparte: +1 Hong Kong (tren SZ al **mar 13 ≈22:00**) y +1 Zhangjiajie (G2442 **jue 22** 20:48). Horas iguales; cadena SZ/Yangshuo/CQ se desplaza. Chengdu ~2 d 11 h (noche 25 + 26–27). Vuelo TFU→PVG del 28 sin cambio. Nada en reservas.
+
+**Confirmado en reservas:** (sin cambios).
+
+---
+
+## 2026-09-21 — Hotel Hong Kong confirmado
+
+**Viaje:** 2026-china
+
+**Resumen:** Primera reserva de alojamiento: **Happy Motel** (Nathan Road, Yau Tsim Mong), Trip.com **1598741358459072**, 2 noches **11–13/10/2026**, salida antes 11:30. Captura en chat; precio no registrado. `hong-kong.md` día 1: base noche apunta a reservas.
+
+**Confirmado en reservas:** Happy Motel HK (1598741358459072).
+
+---
+
+## 2026-09-21 — Plan C eliminado; solo Plan D
+
+**Viaje:** 2026-china
+
+**Resumen:** Borrados `plan-C.md` y `docs/plan-C/`. Capturas G2962 y D3970 en `docs/plan-D/`. Nav MkDocs solo **Plan D** (quitados A/B/C rotos). `ciudades.md`, Chongqing, Guilin y alojamiento alineados a Plan D.
+
+**Confirmado en reservas:** (sin cambios).
+
+---
+
+## 2026-09-21 — Pekín y Xi'an fuera de actividades
+
+**Viaje:** 2026-china
+
+**Resumen:** Eliminados `actividades/pekin.md` y `actividades/xian.md`. Quitados de `index.md`, `mkdocs.yml` y tabla de `ciudades.md`. Añadido Hong Kong a nav MkDocs (faltaba).
+
+**Confirmado en reservas:** (sin cambios).
+
+---
+
+## 2026-09-21 — Limpieza Pekín / Xi'an (Plan D)
+
+**Viaje:** 2026-china
+
+**Resumen:** Quitados borradores A/B/C en `ciudades.md`. `transportes.md` alineado a Plan D. `alojamiento.md` sin Pekín/Xi'an; bloque HK. `consejos-locales.md` y `plan-D.md` actualizados.
 
 **Confirmado en reservas:** (sin cambios).

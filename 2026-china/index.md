@@ -1,6 +1,6 @@
 # China 2026
 
-Guía web del viaje. La fuente de verdad sigue siendo la carpeta `2026-china/` del repo; esta web es la capa navegable (online u offline).
+Guía web del viaje (MkDocs). Todo el contenido vive en esta carpeta; editar aquí y recargar el navegador con `python web/scripts/build.py serve`.
 
 ## Accesos rápidos
 
@@ -8,8 +8,7 @@ Guía web del viaje. La fuente de verdad sigue siendo la carpeta `2026-china/` d
 |---------|-----------|
 | [Reservas (resumen)](reservas-summary.md) | Histórico cronológico confirmado |
 | [Reservas (detalle)](reservas-detail.md) | Localizadores, plazas, PDFs |
-| [Plan A](plan-A.md) | Calendario vivo / borrador |
-| [Plan B](plan-B.md) | Variante sin Guilin |
+| [Plan D](plan-D.md) | **Plan activo** (HK mar 13 noche → SZ → Yangshuo → … → PVG) |
 | [Ciudades](ciudades.md) | Orden, días, estados |
 | [Transportes](transportes.md) | Vuelos, trenes, saltos |
 | [Alojamiento](alojamiento.md) | Zonas y hoteles |
@@ -18,8 +17,7 @@ Guía web del viaje. La fuente de verdad sigue siendo la carpeta `2026-china/` d
 
 ## Actividades por ciudad
 
-- [Pekín](actividades/pekin.md)
-- [Xi'an](actividades/xian.md)
+- [Hong Kong](actividades/hong-kong.md)
 - [Chengdu](actividades/chengdu.md)
 - [Chongqing](actividades/chongqing.md)
 - [Furong](actividades/furong.md)
@@ -30,4 +28,4 @@ Guía web del viaje. La fuente de verdad sigue siendo la carpeta `2026-china/` d
 
 ## Offline
 
-En el viaje: abrir el ZIP/`site-offline` generado con `python scripts/build.py offline` (ver `web/README.md`).
+En el viaje: abrir el ZIP/`site-offline` generado con `python web/scripts/build.py offline` (ver `web/README.md`).

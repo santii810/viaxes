@@ -8,7 +8,8 @@ alwaysApply: true
 - Leer `SESSION-LOG.md` e **`intereses.md`** al empezar; actualizarlo al cerrar hitos.
 - `reservas-summary.md` + `reservas-detail.md` = verdad absoluta; escribir **solo** con confirmación explícita (ambos).
 - Itinerarios en `YYYY-destino/actividades/[ciudad].md`. Skill **`planificar-ciudad`** (universal, todos los viajes).
+- Ciudad: 30s + mapa + dormir; **por cada día** Programa → fotos/ficha de *ese* día. Modelo: `hong-kong.md`.
 - Restricciones solo cuando existan. **Entrada:** moneda local + **euros** cuando aplique; conversiones según `YYYY-destino/conversion.md`.
 - Cambios incrementales; no masificar ediciones.
-- Web del viaje: `web/` (MkDocs); fuente en `YYYY-destino/`; sync/build vía `web/scripts/`.
+- Web del viaje: `web/` (MkDocs); `docs_dir` → `YYYY-destino/`; build vía `web/scripts/build.py`.
 - Skill de referencia: `viajes-harness`.

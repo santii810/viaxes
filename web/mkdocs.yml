@@ -2,7 +2,7 @@ site_name: China 2026
 site_description: Guía del viaje (privada — no indexar)
 site_author: Viaxes
 
-docs_dir: docs
+docs_dir: ../2026-china
 site_dir: site
 
 theme:
@@ -66,12 +66,10 @@ nav:
   - Reservas:
     - Resumen: reservas-summary.md
     - Detalle: reservas-detail.md
-  - Plan A: plan-A.md
-  - Plan B: plan-B.md
+  - Plan D: plan-D.md
   - Ciudades: ciudades.md
   - Actividades:
-    - Pekín: actividades/pekin.md
-    - Xi'an: actividades/xian.md
+    - Hong Kong: actividades/hong-kong.md
     - Chengdu: actividades/chengdu.md
     - Chongqing: actividades/chongqing.md
     - Furong: actividades/furong.md

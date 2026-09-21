@@ -10,6 +10,12 @@ Copiar como `YYYY-destino/actividades/[ciudad].md` (p. ej. `2026-china/actividad
 
 ---
 
+## [Ciudad] en 30 segundos
+
+Cómo se organiza la ciudad (zonas / orillas / barrios) y cómo encajan en *este* viaje. Más el **mapa mental** y **dónde dormir**.
+
+---
+
 ## Día 1 — [Título del día]
 
 **Zona:** [barrio/distrito principal del día]
@@ -29,6 +35,10 @@ Actividades **extra en la zona** por si queréis cambiar de plan, acortar el pro
 |-----------|---------------|-------|
 | | | |
 
+### Qué es cada sitio (día 1)
+
+Solo los sitios de **este** día (los del Programa). Texto corto + foto si hay + enlace Mapa. Luego empieza el Día 2.
+
 ---
 
 ## Día 2 — [Título del día]
@@ -46,9 +56,13 @@ Actividades **extra en la zona** por si queréis cambiar de plan, acortar el pro
 | Actividad | Restricciones | Notas |
 |-----------|---------------|-------|
 
+### Qué es cada sitio (día 2)
+
+Igual: solo X, Y, Z de este día.
+
 ---
 
-*(Repetir bloque por cada día)*
+*(Repetir bloque por cada día: Programa → Plan B → Qué es cada sitio)*
 
 ---
 

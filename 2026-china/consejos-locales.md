@@ -16,7 +16,7 @@ En China los **grupos organizados entran a primera hora** (≈07:00–09:00): bu
 **Excepciones** — madrugar solo si hay motivo claro en Notas del programa:
 
 - Reserva en franja concreta de mañana
-- Traslado largo previo — ajustar hora de **llegada** al recinto, no necesariamente la de apertura (ej. Muralla ≈2 h desde Pekín)
+- Traslado largo previo — ajustar hora de **llegada** al recinto, no necesariamente la de apertura (ej. Wulingyuan → puerta Este del parque ZJJ)
 - Experiencia que depende de la mañana (niebla, amanecer) y el viajero lo prioriza
 
 Si el programa no cabe en tarde (cierre ≈17:00–18:00), repartir en 2 días o recortar miradores.

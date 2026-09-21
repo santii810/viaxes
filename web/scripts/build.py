@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Sync + mkdocs build (online u offline)."""
+"""MkDocs build (online u offline) o servidor de desarrollo."""
 
 from __future__ import annotations
 
@@ -10,7 +10,6 @@ import sys
 from pathlib import Path
 
 WEB_ROOT = Path(__file__).resolve().parents[1]
-SYNC = WEB_ROOT / "scripts" / "sync-from-viaje.py"
 
 
 def run(cmd: list[str], env: dict[str, str] | None = None) -> None:
@@ -23,13 +22,7 @@ def main() -> None:
     parser.add_argument(
         "mode",
         choices=("online", "offline", "serve"),
-        help="online → site/; offline → site-offline/; serve → mkdocs serve",
-    )
-    parser.add_argument(
-        "viaje",
-        nargs="?",
-        default="2026-china",
-        help="Carpeta YYYY-destino (default: 2026-china)",
+        help="online → site/; offline → site-offline/; serve → mkdocs serve (live reload desde 2026-china/)",
     )
     parser.add_argument(
         "--addr",
@@ -37,8 +30,6 @@ def main() -> None:
         help="Dirección de mkdocs serve (default: 0.0.0.0:8000, accesible en la LAN)",
     )
     args = parser.parse_args()
-
-    run([sys.executable, str(SYNC), args.viaje])
 
     env = os.environ.copy()
     if args.mode == "serve":

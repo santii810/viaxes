@@ -78,3 +78,21 @@
 
 - Asientos de vuelta: sin asignar en el recibo.
 - Estado: OK (confirmado).
+
+---
+
+## Hotel — Hong Kong · Happy Motel
+
+| Campo | Valor |
+|-------|--------|
+| **N.º reserva** | 1598741358459072 |
+| **Plataforma** | Trip.com |
+| **PIN** | En app (enmascarado en captura) |
+| **Nombre** | Happy Motel · 香港喜悦酒店 (家庭旅館) |
+| **Dirección** | No. 242-252 Nathan Road (National Court), Yau Tsim Mong, Hong Kong |
+| **Noches** | **2** (dom 11/10 → mar 13/10/2026) |
+| **Entrada** | Desde **14:00** (llegada prevista **≈23:00** tras QR816) · ventana hasta **05:00** |
+| **Salida** | **mar 13/10/2026** · antes de **11:30** |
+| **Traslado** | No incluido (reservable aparte en Trip.com) |
+| **Servicios** | Consigna equipaje gratis · Wi‑Fi gratis (zonas comunes) |
+| **Estado** | Confirmado |

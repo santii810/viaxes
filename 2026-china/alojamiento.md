@@ -10,31 +10,14 @@ Opciones, investigación y borradores. Lo confirmado va en `reservas-summary.md`
 
 ---
 
-## Pekín (3 días) — recomendado
+## Hong Kong (2 noches) — Plan D
+
+**Confirmado:** Happy Motel · Nathan Road (ver `reservas-detail.md`).
 
 **Dónde quedarse (barrios):**
 
-- **Dongcheng — Wangfujing / Dengshikou**
-  - **Por qué**: encaja con día 1 (eje imperial) y es un hub muy cómodo; muchas opciones para comer y moverse sin taxi.
-  - **Precio estimado**: **450–900 CNY/noche (≈65–130 €)**.
-- **Xicheng — Shichahai / Gulou (Drum & Bell)**
-  - **Por qué**: encaja perfecto con día 2 (hutongs + Houhai) y os deja “noche viva” a pie (cenas y paseo) sin desplazaros.
-  - **Precio estimado**: **500–1000 CNY/noche (≈70–140 €)**.
-
-**Evitar si queréis optimizar tiempo:** muy lejos del centro sin metro cercano (os penaliza en día 1 y 2).
-
----
-
-## Xi’an (2 días) — recomendado
-
-**Dónde quedarse (barrios):**
-
-- **Centro histórico — zona Torre del Tambor / Torre de la Campana / Beiyuanmen (barrio musulmán)**
-  - **Por qué**: día 1 acabáis cenando/paseando por el barrio musulmán; día 2 empezáis en torres. Todo a pie o 1–2 paradas de metro.
-  - **Precio estimado**: **280–650 CNY/noche (≈40–95 €)**.
-- **Zona South Gate (Yongningmen)**
-  - **Por qué**: alternativa algo más tranquila que el núcleo turístico, bien conectada al centro y cómoda para salir hacia estación/aeropuerto.
-  - **Precio estimado**: **300–750 CNY/noche (≈45–110 €)**.
+- **TST / Jordan** — Kowloon; encaja con ferry a la isla, Mong Kok y West Kowloon (tren a Shenzhen).
+- **Precio estimado** (referencia): **400–900 HKD/noche (≈48–108 €)**.
 
 ---
 
@@ -53,10 +36,8 @@ Opciones, investigación y borradores. Lo confirmado va en `reservas-summary.md`
 **Dónde quedarse (barrios):**
 
 - **Yuzhong — Jiefangbei / Linjiangmen / Xiaoshizi (cerca Hongyadong)**
-  - **Por qué**: vuestro día 1 es casi todo Yuzhong (Luohan, Shibati, Kuixing/Datang, Liziba + Hongyadong). Para el sábado de drones, desde aquí os movéis fácil a Nanbin/Changjiahui.
+  - **Por qué**: el día 1 es casi todo Yuzhong (Luohan, Shibati, Kuixing/Datang, Liziba + Hongyadong). Metro cercano para moverse sin taxi.
   - **Precio estimado**: **320–800 CNY/noche (≈45–115 €)**.
-
-**Nota drones (si se mantiene Chongqing)**: para verlos cómodos, priorizar un alojamiento con **metro cercano** y salida fácil hacia **Nanbin Road / Changjiahui** (no hace falta dormir allí).
 
 ---
 
@@ -95,18 +76,12 @@ Opciones, investigación y borradores. Lo confirmado va en `reservas-summary.md`
 
 ---
 
-## Guilin + Yangshuo (2 días) — opción
+## Yangshuo (3 noches) — opción
 
-**Recomendación de base (según vuestro plan actual):** **1 noche en Yangshuo**.
+**Recomendación de base (Plan D):** **3 noches en Yangshuo** (15, 16 y 17). Sin noche en Guilin.
 
 **Dónde quedarse (barrios):**
 
 - **Yangshuo — West Street (西街) / orilla del río**
-  - **Por qué**: día 1 termináis en West Street y el día 2 estáis entre Yulong/Xingping; dormir aquí reduce traslados y mejora la noche.
+  - **Por qué**: llegada G2962 el jue 15; vie 16 y sáb 17 entre Yulong/Xingping. Dormir aquí reduce traslados.
   - **Precio estimado**: **320–850 CNY/noche (≈45–120 €)**.
-
-**Alternativa si la logística del crucero obliga a dormir en Guilin:**
-
-- **Guilin centro (cerca de ríos/zonas comerciales)**
-  - **Por qué**: mejor para una noche “de paso” si la llegada/salida os deja poco margen para Yangshuo.
-  - **Precio estimado**: **280–700 CNY/noche (≈40–100 €)**.

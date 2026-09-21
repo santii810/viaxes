@@ -2,7 +2,7 @@
 
 Sitio estático de **`2026-china`**: navegable online y exportable offline (móvil).
 
-La fuente de verdad sigue en `2026-china/`. No edites el markdown dentro de `web/docs/` (salvo `index.md`): se regenera con el sync.
+MkDocs lee **directamente** `2026-china/` (`docs_dir` en `mkdocs.yml`). Edita ahí y el servidor recarga solo.
 
 ## Requisitos (una vez)
 
@@ -12,29 +12,23 @@ pip install -r web/requirements.txt
 
 ## Uso
 
-Desde la carpeta `web/`:
+Desde la raíz del repo (o `web/`):
 
 ```bash
-# Vista local (sync + servidor); escucha en 0.0.0.0:8000 → visible en la LAN
-python scripts/build.py serve
+# Vista local con live reload (vigila 2026-china/)
+python web/scripts/build.py serve
 
 # Solo este PC
-python scripts/build.py serve --addr 127.0.0.1:8000
+python web/scripts/build.py serve --addr 127.0.0.1:8000
 
 # Otro puerto
-python scripts/build.py serve --addr 0.0.0.0:8080
+python web/scripts/build.py serve --addr 0.0.0.0:8080
 
 # Build online → web/site/
-python scripts/build.py online
+python web/scripts/build.py online
 
 # Build offline → web/site-offline/  (abrir index.html en el móvil)
-python scripts/build.py offline
-```
-
-Solo sync (sin build):
-
-```bash
-python scripts/sync-from-viaje.py 2026-china
+python web/scripts/build.py offline
 ```
 
 ## Ver desde otro equipo de la red
@@ -49,7 +43,7 @@ Averigua la IP con `ipconfig` (IPv4 de la interfaz activa). Si no carga, suele s
 
 ## Offline en el viaje
 
-1. `python scripts/build.py offline`
+1. `python web/scripts/build.py offline`
 2. Copia `web/site-offline/` al móvil (ZIP, cable, carpeta compartida).
 3. Abre `index.html` con el navegador (Chrome/Safari).
 
@@ -57,7 +51,7 @@ En Windows, el build offline puede avisar de *symbolic link* (OneDrive/privilegi
 
 ## Online (repo privado + enlace)
 
-1. `python scripts/build.py online`
+1. `python web/scripts/build.py online`
 2. Publica `web/site/` en Cloudflare Pages / GitHub Pages / Netlify.
 3. Repo **privado**; no anunciéis la URL. El sitio incluye `noindex`.
 

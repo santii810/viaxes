@@ -4,9 +4,9 @@
 
 **Estado:** `opción`
 **Fichero:** `actividades/chongqing.md`
-**Resumen:** Ciudad 8D — Luohan, Shibati, Datang/Kuixing, metro Liziba, paseo nocturno; **sábado** espectáculo drones «魅力重庆».
+**Resumen:** Ciudad 8D — Luohan, Shibati, Datang/Kuixing, metro Liziba, paseo nocturno. Plan D: **jue 22** noche → **dom 25** 20:56 (D2263).
 
-> Candidato a recortar si el calendario va justo. **Planificar un sábado noche** en Chongqing si queréis los drones — puede mover el calendario del viaje.
+> Drones «魅力重庆» **descartados** — no encajan en el calendario.
 
 ---
 
@@ -44,12 +44,10 @@
 
 ---
 
-## Día 2 — Sábado: drones y noche en el río
+## Día 2 — Eling / Testbed + noche en el río
 
-**Zona:** Tarde centro · noche Nanbin / Jiangbeizui / Chaotianmen
-**Base noche:** Traslado noche (Zhangjiajie / tren HS) o misma base
-
-> **Este día debe caer en sábado** (o festivo con show confirmado) para el espectáculo de drones.
+**Zona:** Tarde Eling o Testbed 2 · noche Nanbin / Hongyadong
+**Base noche:** Misma base Yuzhong (Plan D: noches **23** y **24**; **dom 25** tarde tren)
 
 ### Programa
 
@@ -57,10 +55,8 @@
 |------|-----------|---------------|---------|-------|
 | 10:00–13:00 | Mañana libre / repetir Datang o Shibati | | | Recuperar lo que quedó pendiente; desayuno-brunch. |
 | 13:00–17:00 | **Eling Park** (鹅岭公园) o **Testbed 2** (二厂) | Eling ≈08:00–17:00 | Eling ≈5 CNY (≈1 €) · Testbed gratis | Vistas 360° de la ciudad 8D; Testbed = fábrica reconvertida (fotos). |
-| 17:30–19:30 | Cena temprano cerca de **Nanbin Road** o Changjiahui (长嘉汇) | | | Llegar pronto si queréis sitio en terraza para drones |
-| 19:30–20:15 | Acomodo en **mirador drones** (Nanbin / Changjiahui / Jiangbeizui) | | Gratis | Show **魅力重庆** · ≈15–20 min · **sábados** (oct–abr ≈20:30; may–sept ≈21:00) |
-| 20:15–21:30 | **Espectáculo drones** + luces skyline | **Sábado** · cancela si lluvia/viento | Gratis | Verificar en [cq.gov.cn](https://www.cq.gov.cn/) o WeChat «重庆发布» |
-| 21:30–23:00 | Paseo nocturno río (Nanbin o vuelta Hongyadong iluminado) | | Gratis | Cierre del día |
+| 17:30–19:30 | Cena (hot pot) en Yuzhong o **Nanbin Road** | | | Sin prisa de mirador. |
+| 19:30–22:00 | Paseo nocturno **Nanbin** o vuelta **Hongyadong** iluminado | Iluminación ≈19:00–22:00 | Gratis | Skyline + río; cierre del día. |
 
 ### Plan B — misma zona
 
@@ -68,16 +64,15 @@
 
 | Actividad | Restricciones | Entrada | Notas |
 |-----------|---------------|---------|-------|
-| **Three Natural Bridges** / Wulong | Fuera ciudad | | Deck — día entero |
 | **Ciqikou** (磁器口) pueblo antiguo | | Gratis | ≈1 h metro; muy turístico |
+| **Raffles City** / Chaotianmen | | Gratis (interior) | Confluencia Yangtsé + Jialing |
 
-**Noche (drones):**
+**Noche:**
 
 | Actividad | Restricciones | Entrada | Notas |
 |-----------|---------------|---------|-------|
-| Mirador **Changjiahui** (长嘉汇) | Llegar ≈1,5 h antes | Gratis | Vista frontal recomendada por locales |
+| Mirador **Changjiahui** (长嘉汇) | | Gratis | Vista frontal del skyline |
 | **Jiangbeizui Grand Theater** | Metro Line 6 | Gratis | Orilla norte; panorama Raffles + Hongyadong |
-| Sin drones (lluvia) | | | Plan B: Hongyadong + Luces Raffles + hot pot |
 
 ---
 
@@ -90,6 +85,7 @@
 | **Ciqikou** completo | Oeste | | Gratis | medio | Medio día si no cabe |
 | **Baigongguan** / historia WWII | | | ≈50 CNY (≈7 €) | medio | Interés histórico |
 | Teleférico Yangtsé | Yuzhong | | ≈30 CNY (≈4 €) | bajo | ≈1 h con colas |
+| Drones «魅力重庆» | Nanbin / Changjiahui | Solo sábados noche · cancela si lluvia | Gratis | alto | **Descartado** — no encaja en el calendario |
 
 ## Compras y curiosidades
 
@@ -124,13 +120,11 @@ Sin horario — **hot pot chongqingense** más aceitoso y picante que el de Chen
 ## Experiencias (no monumentos)
 
 - [ ] Paseo nocturno Hongyadong + luces — día 1
-- [ ] **Drones sábado** — día 2 (ajustar calendario del viaje)
 - [ ] Hot pot con manteca de vaca — una noche
 
 ## Pendiente
 
 - [ ] ¿Incluir Chongqing o recortar? (libera ≈1–2 días)
-- [ ] **Fijar sábado** en Chongqing para drones — mover fechas del viaje si hace falta
-- [ ] Verificar show oct 2026 (hora exacta, cancelación por lluvia)
-- [ ] ¿1 día comprimido (Luohan + Shibati + Liziba + Datang + Hongyadong + sábado drones) vs 2 días?
-- [ ] Tren desde Chengdu (≈1–1,5 h)
+- [x] Drones: **descartados** (no encajan)
+- [ ] ¿1 día comprimido (Luohan + Shibati + Liziba + Datang + Hongyadong) vs 2 días?
+- [ ] Tren a Chengdu: Plan D **D2263** dom 25 20:56 (Chongqingbei)
